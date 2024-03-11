@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #646161;
+    animation: rinat 10s infinite;
+}
+
+@keyframes rinat {
+    0% {
+        background-color: #754105;
+    }
+    25% {
+        background-color: #8f0606;
+    }
+    50% {
+        background-color: #1a1e55;
+    }
+    75% {
+        background-color: #144414;
+    }
+    100% {
+        background-color: #646161;
+    }
+}
+
+.osnova {
+    border-radius: 5%;
+    width: 250px;
+    height: 300px;
+    background: radial-gradient(at top, rgb(206, 187, 15), rgb(250, 121, 0));
+    box-shadow: 2px 2px 5px rgba(26, 26, 25, 0.5), 3px 3px 10px rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    position: absolute;
+    color: aliceblue;
+    margin-bottom: 220px;
+    font-size: 36px;
+    text-shadow: 2px 3px 1px rgba(1, 201, 252, 0.5);
+    animation: tex 3s ease-in-out infinite;
+}
+
+@keyframes tex {
+    0% {
+        transform: translateY(10);
+    }
+    50% {
+        transform: translateY(2vh);
+    }
+    100% {
+        transform: translateY(10);
+    }
+}
+
+.log {
+    position: absolute;
+}
+
+button {
+    width: auto;
+}
+
+input {
+    border-radius: 5%;
+    padding: 5px 20px;
+    border: none;
+}
+
+input:hover {
+    border: 3px solid red;
+}
